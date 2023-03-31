@@ -400,6 +400,27 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: door_open
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 100
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b6a2336a8de8454a981d876a611f60a
+      internalID: -986067018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -411,6 +432,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
+      door_open: -986067018
       door_open_1: -13224049
       door_open_2: 831563422
       door_open_3: 21198885

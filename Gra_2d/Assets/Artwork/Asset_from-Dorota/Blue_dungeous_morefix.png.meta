@@ -484,6 +484,27 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: door_close
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 100
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b7a351f9190c76498816b3f4cd49b96
+      internalID: -1943456748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -496,11 +517,11 @@ TextureImporter:
     secondaryTextures: []
     nameFileIdTable:
       Blue_dungeous_morefix_0: -909615817
-      Blue_dungeous_morefix_1: 748872243
       column3_1: 1205073011
       column3_2: -793838666
       column3_3: 2109815216
       column3_4: -1939151088
+      door_close: 748872243
       door_close_1: 269681768
       door_close_2: -2045731195
       door_close_3: -908039441
