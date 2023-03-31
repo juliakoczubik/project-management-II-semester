@@ -1854,7 +1854,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 238
-        y: 50
+        y: 59
         width: 16
         height: 16
       alignment: 0
@@ -2001,7 +2001,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 237
-        y: 3
+        y: 2
         width: 16
         height: 16
       alignment: 0
@@ -2022,7 +2022,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 237
-        y: 19
+        y: 18
         width: 16
         height: 16
       alignment: 0
@@ -2043,9 +2043,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 237
-        y: 35
+        y: 34
         width: 16
-        height: 15
+        height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2591,7 +2591,7 @@ TextureImporter:
         x: 183
         y: 104
         width: 16
-        height: 12
+        height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2610,7 +2610,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 183
-        y: 116
+        y: 120
         width: 16
         height: 16
       alignment: 0
@@ -2633,7 +2633,7 @@ TextureImporter:
         x: 199
         y: 104
         width: 16
-        height: 12
+        height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2652,7 +2652,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 199
-        y: 116
+        y: 120
         width: 16
         height: 16
       alignment: 0
@@ -2673,7 +2673,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 199
-        y: 132
+        y: 136
         width: 16
         height: 16
       alignment: 0
@@ -2820,7 +2820,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 238
-        y: 66
+        y: 75
         width: 16
         height: 16
       alignment: 0
@@ -2832,6 +2832,27 @@ TextureImporter:
       bones: []
       spriteID: 733332be034ca314f92e80abbce0969f
       internalID: 1624935275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: healing_3
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 43
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 3, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a7df6c9e8c88e94fa57f579d18c6a9c
+      internalID: -6469587
       vertices: []
       indices: 
       edges: []
@@ -2914,6 +2935,7 @@ TextureImporter:
       floor_top_3: 1970714611
       healing_1: 896183915
       healing_2: 1624935275
+      healing_3: -6469587
       ladder: 548269789
       paht_angle_3: 1800194042
       paht_bottom: -2097371516

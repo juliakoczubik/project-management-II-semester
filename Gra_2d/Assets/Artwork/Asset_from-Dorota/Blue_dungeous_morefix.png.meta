@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: cffa6fae7a677aa40816dbc40869174f
+guid: c9e765102e1eee948989a466fecd2f2b
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -107,11 +107,95 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: stream_path_8
+      name: wall_deco_1
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 10
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8d77cfe107e76946940d303ce8a384c
+      internalID: -1885494678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wall_deco_2
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 10
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9605a97906545db49b296fbb2ec2f295
+      internalID: 680043914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wall_deco_3
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 10
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ab20956e7fed844dbfe6efa6c163fc9
+      internalID: 884161743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wall_deco_4
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 10
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a4a4a1178880974dafad61a967d4fe2
+      internalID: -909615817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue_dungeous_morefix_0
       rect:
         serializedVersion: 2
         x: 112
-        y: 28
+        y: 10
         width: 16
         height: 16
       alignment: 0
@@ -121,18 +205,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1e6e5521e3cce804c8ebc2db7dd80ad7
-      internalID: -2076304088
+      spriteID: 21ba21dfb49ca1043b547b818db61bbe
+      internalID: -74734498
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: stream_path_9
+      name: healing_1
       rect:
         serializedVersion: 2
-        x: 112
-        y: 44
+        x: 10
+        y: 65
         width: 16
         height: 16
       alignment: 0
@@ -142,18 +226,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c38d09cd1377ee84fa9d72c2bc8a7ef0
-      internalID: -937752459
+      spriteID: 8c9ee1299ef700f498adfd4e8d6ee10e
+      internalID: -1619532244
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wall_topcorner_left_1
+      name: healing_2
       rect:
         serializedVersion: 2
-        x: 96
-        y: 12
+        x: 10
+        y: 49
         width: 16
         height: 16
       alignment: 0
@@ -163,18 +247,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 45fec428031d993418ad3af5c03649ab
-      internalID: 912582317
+      spriteID: 5daad0e8e37b2b148b738fcfe2fbe5bd
+      internalID: 792527729
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wall_topcorner_left_2
+      name: healing_3
       rect:
         serializedVersion: 2
-        x: 96
-        y: 28
+        x: 10
+        y: 33
         width: 16
         height: 16
       alignment: 0
@@ -184,239 +268,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5610990ced573ea40acf817f0a5e31b0
-      internalID: -150243049
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: wall_topcorner_left_3
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 44
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a546165f0c69e02488170daef77bbc8e
-      internalID: 1861159749
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: wall_topcorner_left_4
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 60
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b8e1e74400944954d98fe72867b7b0ea
-      internalID: -723898960
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: wall_topcorner_right_1
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 12
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 97c6674719c4e5f408d760a8e8eea011
-      internalID: -1874530470
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: wall_topcorner_right_2
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 28
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 39b704060ff1f6b48a67e34c7d2e7ec0
-      internalID: -1674288768
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: wall_topcorner_right_3
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 44
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3d35a3607b9411a4db3bf31f0dd8707e
-      internalID: 1590531401
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: wall_topcorner_right_4
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 60
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b0b75016268a7ab4a9fe01318211eedc
-      internalID: -462673697
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: stream_path_7
-      rect:
-        serializedVersion: 2
-        x: 112
-        y: 12
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9f5be244ac6f33348bd058559772dd9f
-      internalID: -1851053914
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: column2_1
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 60
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: eb115407023e5b04d917833e8f883969
-      internalID: 1733381711
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: column2_2
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 76
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 73047fc42b003124b9e03d22dd836eaf
-      internalID: 121153403
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: column2_3
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 92
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8e8c059aa3b125540bf857c4bfe799f2
-      internalID: -329901751
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: column2_4
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 92
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6b1af2cdf3e5bc44b85148d1d0c820c5
-      internalID: 725699651
+      spriteID: 17504c51ac0946340a898498e9be4704
+      internalID: 1215287217
       vertices: []
       indices: 
       edges: []
@@ -425,8 +278,8 @@ TextureImporter:
       name: column3_1
       rect:
         serializedVersion: 2
-        x: 15
-        y: 107
+        x: 50
+        y: 39
         width: 16
         height: 16
       alignment: 0
@@ -436,8 +289,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aa461c278339e8648b87d9f0f7a287b0
-      internalID: -33730531
+      spriteID: 8a15d381f02da334e9294ab82f75aca1
+      internalID: 1205073011
       vertices: []
       indices: 
       edges: []
@@ -446,8 +299,8 @@ TextureImporter:
       name: column3_2
       rect:
         serializedVersion: 2
-        x: 15
-        y: 123
+        x: 50
+        y: 55
         width: 16
         height: 16
       alignment: 0
@@ -457,8 +310,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3441482a42428004dbea2e68a4999f7f
-      internalID: 1664154712
+      spriteID: fffae34528c381141a95bfdcad2443b2
+      internalID: -793838666
       vertices: []
       indices: 
       edges: []
@@ -467,8 +320,8 @@ TextureImporter:
       name: column3_3
       rect:
         serializedVersion: 2
-        x: 15
-        y: 139
+        x: 50
+        y: 71
         width: 16
         height: 16
       alignment: 0
@@ -478,8 +331,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8268fe70da3e6834980999900c7abd28
-      internalID: 1769770120
+      spriteID: eaae9488efcd03240a55936283d3ea38
+      internalID: 2109815216
       vertices: []
       indices: 
       edges: []
@@ -488,8 +341,8 @@ TextureImporter:
       name: column3_4
       rect:
         serializedVersion: 2
-        x: 31
-        y: 139
+        x: 34
+        y: 71
         width: 16
         height: 16
       alignment: 0
@@ -499,18 +352,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0e9d9cd23e41cf549a34ebc716569022
-      internalID: 848706903
+      spriteID: f76be959960df154f845688392b047f1
+      internalID: -1939151088
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pool
+      name: door_close_1
       rect:
         serializedVersion: 2
-        x: 64
-        y: 124
+        x: 10
+        y: 100
         width: 16
         height: 16
       alignment: 0
@@ -520,18 +373,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ea2605a062eba76478462532105afdc2
-      internalID: 67047882
+      spriteID: db43df4517b5a664ea69c4366c9d486e
+      internalID: 269681768
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wall_top_1
+      name: door_close_2
       rect:
         serializedVersion: 2
-        x: 48
-        y: 106
+        x: 19
+        y: 100
         width: 16
         height: 16
       alignment: 0
@@ -541,18 +394,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 96538e38adebac14e81defe0520c3315
-      internalID: 1344420556
+      spriteID: a6dd32dc29d051c44a81c3b610f42787
+      internalID: -2045731195
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wall_top_2
+      name: door_close_3
       rect:
         serializedVersion: 2
-        x: 64
-        y: 106
+        x: 28
+        y: 100
         width: 16
         height: 16
       alignment: 0
@@ -562,18 +415,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 14e8ca90d63353f448d9f53337db6264
-      internalID: -1727663321
+      spriteID: 3565bbe1738472a4a98d34b9dbeda1cb
+      internalID: -908039441
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wall_top_3
+      name: door_close_4
       rect:
         serializedVersion: 2
-        x: 80
-        y: 106
+        x: 10
+        y: 116
         width: 16
         height: 16
       alignment: 0
@@ -583,18 +436,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 295684c16d3f5ac41bc7d6a53a7a89c0
-      internalID: 336487994
+      spriteID: 5562342fae6bf644a95ac9a07adaa629
+      internalID: 1550169990
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wall_top_4
+      name: door_close_5
       rect:
         serializedVersion: 2
-        x: 96
-        y: 106
+        x: 19
+        y: 116
         width: 16
         height: 16
       alignment: 0
@@ -604,18 +457,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 12aa581c6a723ba48a4dfcbeaca50903
-      internalID: -838568015
+      spriteID: 976e6cbf2889ebe4eaac3bb8585317b4
+      internalID: 1839748308
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wall_top_5
+      name: door_close_6
       rect:
         serializedVersion: 2
-        x: 112
-        y: 106
+        x: 28
+        y: 116
         width: 16
         height: 16
       alignment: 0
@@ -625,50 +478,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aae9fde177f24444e8ed443bf5f8b79c
-      internalID: -1547049844
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: wall_top_6
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 106
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bd6884196aa60f74489ddb811f8bd417
-      internalID: 138770972
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: path
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 124
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5d15de959e55c3c4f8a60337fe3a3feb
-      internalID: -1237379708
+      spriteID: cdb0404f520202041b85869bdc857bca
+      internalID: -1653295431
       vertices: []
       indices: 
       edges: []
@@ -676,7 +487,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 35e337bbd401d5d4bb897395d3e239ac
+    spriteID: 2c1ed2f49150ae844b722d8ffd6b4d2f
     internalID: 0
     vertices: []
     indices: 
@@ -684,37 +495,25 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Blue_dungeous_fixed_1: -388178357
-      column2_1: 1733381711
-      column2_2: 121153403
-      column2_3: -329901751
-      column2_4: 725699651
-      column3_1: -33730531
-      column3_2: 1664154712
-      column3_3: 1769770120
-      column3_4: 848706903
-      column4_1: 215252052
-      column4_2: -2077351753
-      column4_3: -363612360
-      path: -1237379708
-      pool: 67047882
-      stream_path_7: -1851053914
-      stream_path_8: -2076304088
-      stream_path_9: -937752459
-      wall_top_1: 1344420556
-      wall_top_2: -1727663321
-      wall_top_3: 336487994
-      wall_top_4: -838568015
-      wall_top_5: -1547049844
-      wall_top_6: 138770972
-      wall_topcorner_left_1: 912582317
-      wall_topcorner_left_2: 912582317
-      wall_topcorner_left_3: 1861159749
-      wall_topcorner_left_4: -1176496898
-      wall_topcorner_right_1: -1874530470
-      wall_topcorner_right_2: -1874530470
-      wall_topcorner_right_3: -1674288768
-      wall_topcorner_right_4: 1590531401
+      Blue_dungeous_morefix_0: -909615817
+      Blue_dungeous_morefix_1: 748872243
+      column3_1: 1205073011
+      column3_2: -793838666
+      column3_3: 2109815216
+      column3_4: -1939151088
+      door_close_1: 269681768
+      door_close_2: -2045731195
+      door_close_3: -908039441
+      door_close_4: 1550169990
+      door_close_5: 1839748308
+      door_close_6: -1653295431
+      healing_1: -1619532244
+      healing_2: 792527729
+      healing_3: 1215287217
+      wall_deco_1: -1885494678
+      wall_deco_2: 680043914
+      wall_deco_3: 884161743
+      wall_deco_4: -909615817
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
