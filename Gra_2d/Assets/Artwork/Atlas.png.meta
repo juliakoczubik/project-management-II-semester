@@ -1249,7 +1249,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1270,7 +1270,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1278,6 +1278,27 @@ TextureImporter:
       bones: []
       spriteID: ad8f7f4fec29e984b8cb319e15b2f8d4
       internalID: 1426863274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ladder
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86a3062d90174394dba42641d4cc5462
+      internalID: 1654783485
       vertices: []
       indices: 
       edges: []
@@ -1318,6 +1339,7 @@ TextureImporter:
       healingFountain_0: 708242465
       healingFountain_1: 1684127465
       healingFountain_2: 873875393
+      ladder: 1654783485
       pillar_0.0: 460391206
       pillar_0.1: -1863784014
       pillar_0.2: 1381992724
