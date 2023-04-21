@@ -1325,7 +1325,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wepaon_1
+      name: weapon_1
       rect:
         serializedVersion: 2
         x: 163
@@ -1367,7 +1367,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Atlas_3
+      name: weapon_3
       rect:
         serializedVersion: 2
         x: 195
@@ -1459,7 +1459,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1484,7 +1484,6 @@ TextureImporter:
     nameFileIdTable:
       Atlas_1: 848620695
       Atlas_2: 709364335
-      Atlas_3: 606331733
       chest_0: 1426863274
       chest_1: -1190024353
       crate_0: -549091500
@@ -1542,11 +1541,12 @@ TextureImporter:
       wall_8: -271346119
       wall_9: 36064423
       weapon_0: 1312046914
+      weapon_1: -1563551356
       weapon_2: 1437064926
+      weapon_3: 606331733
       weapon_4: -498790410
       weapon_5: -210473587
       weapon_6: -169576521
-      wepaon_1: -1563551356
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
