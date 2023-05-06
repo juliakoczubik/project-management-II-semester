@@ -12,6 +12,8 @@ public class GameManager : MonoBehaviour
         Destroy(gameObject);
         Destroy(player.gameObject);
         Destroy(floatingTextManager.gameObject);
+        Destroy(hud);
+        Destroy(menu);
             return;
         }
 
@@ -19,7 +21,7 @@ public class GameManager : MonoBehaviour
 
         instance = this;
         SceneManager.sceneLoaded += LoadState;
-        DontDestroyOnLoad(gameObject);
+        SceneManager.sceneLoaded += OnSceneLoaded;
     }
     //Ressources
     public List<Sprite> playerSprites;
@@ -31,6 +33,9 @@ public class GameManager : MonoBehaviour
     public Player player;
     public Weapon weapon;
     public FloatingTextManager floatingTextManager;
+    public RectTransform hitpointBar;
+    public GameObject hud;
+    public GameObject menu;
 
     // Logic
 
@@ -63,6 +68,13 @@ public class GameManager : MonoBehaviour
     private void Update()
     {
   //     Debug.Log(GetCurrentLevel());
+    }
+
+    // Hitpoint Bar
+    public void OnHitpointChange()
+    {
+        float ratio = (float)player.hitpoint / (float)player.maxHitpoint;
+        hitpointBar.localScale = new Vector3(1, ratio, 1); 
     }
 
     //exp sys
@@ -104,15 +116,23 @@ public class GameManager : MonoBehaviour
     {
         Debug.Log("Level up!");
         player.OnlevelUp();
+        OnHitpointChange();
     }
-    //Save state
-/*
-INT preferedSkin
-INT pesos
-INT experience
-INT weaponLevel
 
-    */
+    //On Scene Loaded
+    public void OnSceneLoaded(Scene s, LoadSceneMode mode) 
+    {
+        player.transform.position = GameObject.Find("SpawnPoint").transform.position;
+    }
+
+    //Save state
+    /*
+    INT preferedSkin
+    INT pesos
+    INT experience
+    INT weaponLevel
+
+        */
     public void SaveState()
     {
         string s = "";
@@ -122,12 +142,12 @@ INT weaponLevel
         s += weapon.weaponLevel.ToString(); ;
 
         PlayerPrefs.SetString("SaveState", s);
-        Debug.Log("SaveState");
     }
 
     //Load state
     public void LoadState(Scene s, LoadSceneMode mode)
     {
+        SceneManager.sceneLoaded -= LoadState;
         if (!PlayerPrefs.HasKey("SaveState"))
             return;
         string[] data = PlayerPrefs.GetString("SaveState").Split('|');
@@ -141,9 +161,6 @@ INT weaponLevel
         player.SetLevel(GetCurrentLevel());
         //weaponlevel
         weapon.SetWeaponLevel(int.Parse(data[3]));
-       // Debug.Log("LoadState");
-    
-        player.transform.position = GameObject.Find("SpawnPoint").transform.position;
     }
 
 }
