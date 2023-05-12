@@ -1899,7 +1899,7 @@ MonoBehaviour:
     maxDepth: 0
     minNormalAngle: 0
     maxNormalAngle: 0
-  message: Witamy w naszej grze! Uderz w skrzynie.
+  message: Welcome to our game! Hit the crates
 --- !u!1 &215863509
 GameObject:
   m_ObjectHideFlags: 0
